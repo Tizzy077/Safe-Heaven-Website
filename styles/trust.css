@@ -1,0 +1,103 @@
+.trust-section{
+    height: 100vh;
+    padding: 0 100px;
+    padding-top: 40px;
+    margin-bottom: 250px;
+}
+
+.thousands{
+    background-color: #EAFDD6;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+
+}
+.thousands img{
+    width: 20px;
+}
+
+.tagline{
+    margin-top: 70px;
+    display: grid;
+    margin: 70px auto;
+    place-items: center;
+    gap: 40px;
+    /* background-color: aqua; */
+    max-width: 700px;
+}
+.tagline h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 70%;
+    text-align: center;
+    color: #1A472A;
+}
+.tagline p{
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1A472A;
+}
+.tagline-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.tagline-btn button{
+    padding: 8px 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px 10px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.tagline-btn .get-btn{
+    background-color: #EAFDD6;
+    color: #1A472A;
+}
+.tagline-btn .get-btn:hover{
+    background-color: #cdddba;
+}
+.tagline-btn .demo-btn{
+    background-color: white;
+
+}
+.tagline-btn .demo-btn:hover{
+    background-color: #cdddba;
+}
+.card-folder{
+    width: 800px;
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+.card{
+    width: 1fr;
+    background-color: #EAFDD6;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.card img{
+    width: 50px;
+}
+.card p{
+    font-size: 15px;
+}

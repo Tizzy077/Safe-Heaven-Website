@@ -1,0 +1,137 @@
+*{
+    font-family: "SN Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 3000px;
+    background-color: #F8FBF6;
+}
+.hero-section{
+    background: url(../images/hero-1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 100px;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #D4F4DD;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.sign-btn{
+    background-color: #D4F4DD;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    background-color: #bcd6c4;
+    transition: 0.5s;
+}
+
+.hero-content{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 700px;
+    width: 500px;
+    margin-top: 170px;
+}
+.hero-content h1{
+    font-size: 40px;
+    color: #D4F4DD;
+}
+.hero-btn button{
+    padding: 7px 14px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.hero-btn .book-btn{
+    margin-right: 10px;
+    background-color: #D4F4DD;
+}
+.hero-btn .book-btn:hover{
+    background-color: #bcd6c4;
+    transition: 0.5s;
+}
+.hero-btn .learn-btn{
+    background-color: transparent;
+    border: 2px solid #D4F4DD;
+    color: #D4F4DD;
+}
+.hero-btn .learn-btn:hover{
+    background-color: #D4F4DD;
+    transition: 0.5s;
+    color: black;
+}
+
+.subtext{
+    position: absolute;
+    bottom: 130px;
+    right: 80px;
+    max-width: 350px;
+    padding: 10px 20px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 10px;
+}
+.subtext p{
+    width: 100%;
+    color: #D4F4DD;
+    font-size: 16px;
+}
+.stats-container{
+    margin-top:110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.stats strong{
+    font-size: 25px;
+    color: white;
+}
+.stats p{
+    color: #D4F4DD;
+    font-size: 16px;
+}
+.star-stats img{
+    width: 20px;
+}
