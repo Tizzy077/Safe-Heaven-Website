@@ -6,18 +6,34 @@
     
 }
 body{
-    height: 3000px;
+    /* height: 3000px; */
     background-color: #F8FBF6;
+  
 }
 .hero-section{
-    background: url(../images/hero-1.jpg);
+    background-image: url(../images/hero-1.jpg);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 100px;
     position: relative;
+}
+.hero-section::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.2)
+        /* rgba(0,0,0,0.4) */
+    );
+    z-index: 0;
+}
+.hero-section > * {
+    position: relative;
+    z-index: 1;
 }
 
 header{
@@ -59,7 +75,7 @@ header{
     /* background-color: red; */
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
     max-width: 700px;
     width: 500px;
     margin-top: 170px;

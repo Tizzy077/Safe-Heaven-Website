@@ -1,0 +1,180 @@
+@media screen and (max-width: 520px) {
+.hero-section{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 0;
+    /* width: 430px; */
+}
+body{
+    max-width: 100%;
+    /* overflow-x: hidden; */
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.logo-img{
+    width: 60px;
+    height: 60px;
+}
+.logo{
+    font-size: 20px;
+}
+.sign-btn{
+   
+    display: none;
+}
+.hero-content{
+    margin-top: 20px;
+    width: 100%;
+}
+.hero-content h1{
+    font-size: 30px;
+    line-height: 1.2;
+    padding: 0 10px;
+}
+.hero-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-btn button{
+    padding: 10px 20px;
+}
+.book-btn, .learn-btn{
+    width: 90%;
+    padding: 20px 0;
+    margin: 0;
+}
+.subtext {
+    display: none;
+}
+
+.stats-container{
+    margin-top: 40px;
+    justify-content: space-around;
+    gap: 10px;
+}
+.stats strong{
+    font-size: 18px;
+
+}
+.stats p{
+    font-size: 12px;
+    text-align: center;
+}
+.star-stats img{
+    width: 14px;
+}
+
+
+.trust-section{
+    padding: 20px;
+    padding-top: 20px;
+    min-height: 0;
+    margin-bottom: 50px;
+}
+
+.tagline{
+    margin: 40px auto;
+    place-items: center;
+    gap: 30px;
+    max-width: 100%;
+}
+.tagline h1{
+    font-size: 28px;
+    font-weight: 700;
+    width: 70%;
+}
+.tagline p{
+    width: 70%;
+
+}
+
+.card-folder{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.healing{
+    padding: 0 20px;
+    /* text-align: center; */
+}
+
+.heading{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.heading h1{
+    font-size: 28px;
+    font-weight: 700;
+    width: 70%;
+    line-height: 1.5;
+}
+
+.check-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+.check-row{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.check-row img{
+    width: 30px;
+}
+
+.advantage{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 7px;
+
+}
+
+.healing-btn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: normal;
+    margin-left: 0;
+}
+.healing-btn button{
+    padding: 10px 20px;
+}
+
+.pic-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.top-right{
+    display: none;
+}
+.sub-img-folder{
+    display: none;
+}
+}
