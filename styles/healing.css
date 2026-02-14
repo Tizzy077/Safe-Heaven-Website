@@ -1,5 +1,5 @@
 .healing{
-    padding: 0 100px;
+    padding: 40px 100px;
 }
 .online-text{
     background-color: #EAFDD6;
@@ -78,16 +78,20 @@
 .start-btn{
     background-color: #EAFDD6;
 }
+.start-btn:hover{
+    background-color: #cdddba;
+}
 .works-btn{
     background-color: white;
+}
+.works-btn:hover{
+    background-color: rgb(234, 231, 231);
 }
 
 .pic-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
-    /* background-color: aqua; */
-    height: 280px;
     position: relative;
 }
 .pic-container img{

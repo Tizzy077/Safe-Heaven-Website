@@ -1,0 +1,123 @@
+.pricing-section{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.pricing-tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.pricing-tagline h1{
+    font-size: 50px;
+    color: #2C5F2D;
+}
+.pricing-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.pricing-card{
+    background-color: white;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.pricing-card h3{
+    color: #2C5F2D;
+    font-size: 23px;
+
+}
+.pricing-card h2{
+    color: #2C5F2D;
+    font-size: 25px;
+}
+.pricing-card h2 sub{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.details img{
+    width: 20px;
+}
+.detail-btn{
+    background-color: #EAFDD6;
+    border: none;
+    color: #2C5F2D;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+
+}
+.detail-btn:hover{
+    background-color: #cdddba;
+}
+
+.pricing-card:nth-child(2){
+    border: 2px solid #2C5F2D;
+    padding: 50px;
+    background-color: #EAFDD6;
+    position: relative;
+}
+
+.pricing-card:nth-child(2) .detail-btn{
+    background-color: #2C5F2D;
+    color: white;
+}
+.pricing-card:nth-child(2) .detail-btn:hover{
+    background-color: #497649;
+}
+.strong{
+    position: absolute;
+    top: -15px;
+    left: 35%;
+    z-index: 23;
+    background-color: #2C5F2D;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+@media (min-width: 330px) and (max-width: 520px) {
+    .pricing-section{
+        padding: 40px 20px;
+    }
+    .pricing-tagline h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .pricing-tagline p{
+        text-align: center;
+        max-width: 80%;
+    }
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

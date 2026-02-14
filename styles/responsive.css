@@ -1,4 +1,4 @@
-@media screen and (max-width: 520px) {
+@media (min-width: 330px) and (max-width: 520px) {
 .hero-section{
     padding: 40px 20px;
     display: flex;
@@ -94,7 +94,6 @@ header{
 .tagline h1{
     font-size: 28px;
     font-weight: 700;
-    width: 70%;
 }
 .tagline p{
     width: 70%;
@@ -111,6 +110,7 @@ header{
 .healing{
     padding: 0 20px;
     /* text-align: center; */
+    margin-bottom: 50px;
 }
 
 .heading{
@@ -164,6 +164,11 @@ header{
 .healing-btn button{
     padding: 10px 20px;
 }
+/* body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} */
 
 .pic-container{
     display: flex;
@@ -176,5 +181,132 @@ header{
 }
 .sub-img-folder{
     display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero-section{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 0;
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 80%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.hero-content h1{
+    font-size: 32px;
+    color: #D4F4DD;
+}
+.hero-btn button{
+    padding: 8px 16px;
+}
+.subtext{
+    position: absolute;
+    right: 20px;
+    bottom: 90px;
+    max-width: 250px;
+    text-align: left;
+    padding: 5px;
+}
+.subtext p{
+    font-size: 14px;
+}
+
+
+.trust-section{
+    min-height: 0;
+    padding: 0 60px;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+
+.tagline{
+    display: grid;
+    margin: 70px auto;
+    place-items: center;
+    gap: 40px;
+    max-width: 100%;
+}
+.tagline h1{
+    font-size: 28px;
+    width: 50%;
+}
+
+.card-folder{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.card{
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card img{
+    width: 40px;
+}
+
+.card p{
+    font-size: 14px;
+}
+
+.healing{
+    padding: 0 60px;
+}
+.heading{
+    max-width: 80%;
+}
+.heading h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.heading p{
+    font-size: 16px;
+    width: 70%;
+}
+
+.pic-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    position: relative;
+}
+.top-right{
+    right: -50px;
+}
+
+.sub-img-folder{
+    bottom: -340px;
+    left: -50px;
 }
 }
