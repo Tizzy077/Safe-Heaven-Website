@@ -118,6 +118,26 @@
     .pricing-container{
         display: flex;
         flex-direction: column;
-        
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .pricing-section {
+        padding: 40px 20px;
+    }
+
+    .pricing-container{
+        grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+        margin: 0 auto;
+        gap: 30px;
+    }
+    .pricing-card, .pricing-card:nth-child(2){
+        padding: 30px;
+    }
+    .pricing-tagline h1{
+        text-align: center;
+        font-size: 35px;
     }
 }

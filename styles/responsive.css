@@ -251,7 +251,7 @@ header{
     max-width: 100%;
 }
 .tagline h1{
-    font-size: 28px;
+    font-size: 35px;
     width: 50%;
 }
 
@@ -306,7 +306,7 @@ header{
 }
 
 .sub-img-folder{
-    bottom: -340px;
+    bottom: -20px;
     left: -50px;
 }
 }
