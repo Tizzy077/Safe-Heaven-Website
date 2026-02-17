@@ -151,3 +151,14 @@ header{
 .star-stats img{
     width: 20px;
 }
+
+@media screen and (min-width: 1024px) {
+    .hero-section{
+        min-height: 0;
+    }
+    
+    .subtext{
+        bottom: 20%;
+        right: 1%;
+    }
+}
